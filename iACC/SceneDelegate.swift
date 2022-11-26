@@ -17,6 +17,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 	}
 	
 	func makeRootViewController() -> MainTabBarController {
-		MainTabBarController(friendCache: cache)
+		MainTabBarController(friendsCache: cache)
 	}
 }
